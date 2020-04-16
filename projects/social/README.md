@@ -39,6 +39,7 @@ Now that you have a graph full of users and friendships, you can crawl through t
 >>> print(connections)
 {1: [1], 8: [1, 8], 10: [1, 10], 5: [1, 5], 2: [1, 10, 2], 6: [1, 10, 6], 7: [1, 10, 2, 7]}
 ```
+
 Note that in this sample, Users 3, 4 and 9 are not in User 1's extended social network.
 
 * Hint 1: What kind of graph search guarantees you a shortest path?
